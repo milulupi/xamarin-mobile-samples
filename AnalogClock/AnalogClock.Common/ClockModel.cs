@@ -13,7 +13,7 @@ namespace AnalogClock.Common
 
         public ClockModel()
         {
-            this.DateTime = DateTime.Now;
+            this.DateTime = DateTime.Now; 
             Timer();
         }
 

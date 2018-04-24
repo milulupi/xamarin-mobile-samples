@@ -10,7 +10,7 @@ using Android.Widget;
 
 namespace AnalogClock.Android
 {
-	public class ClockView : View
+	public class ClockView : View 
 	{
 		Path tickMarks;
 		Path hourHand;

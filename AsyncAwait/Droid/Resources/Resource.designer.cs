@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("com.xamarin.sample.dataaccess.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("Droid.Resource", IsApplication=true)]
 
-namespace com.xamarin.sample.dataaccess
+namespace Droid
 {
 	
 	
@@ -45,7 +45,7 @@ namespace com.xamarin.sample.dataaccess
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int icon = 2130837504;
+			public const int Icon = 2130837504;
 			
 			static Drawable()
 			{
@@ -60,17 +60,17 @@ namespace com.xamarin.sample.dataaccess
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050001
-			public const int adoButton = 2131034113;
+			// aapt resource value: 0x7f050002
+			public const int DownloadedImageView = 2131034114;
 			
 			// aapt resource value: 0x7f050000
-			public const int linearLayout1 = 2131034112;
-			
-			// aapt resource value: 0x7f050002
-			public const int ormButton = 2131034114;
+			public const int GetButton = 2131034112;
 			
 			// aapt resource value: 0x7f050003
-			public const int outputText = 2131034115;
+			public const int ResultEditText = 2131034115;
+			
+			// aapt resource value: 0x7f050001
+			public const int ResultTextView = 2131034113;
 			
 			static Id()
 			{
@@ -86,7 +86,7 @@ namespace com.xamarin.sample.dataaccess
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int MainActivity = 2130903040;
+			public const int Main = 2130903040;
 			
 			static Layout()
 			{
@@ -101,8 +101,11 @@ namespace com.xamarin.sample.dataaccess
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f040001
+			public const int app_name = 2130968577;
+			
 			// aapt resource value: 0x7f040000
-			public const int ApplicationName = 2130968576;
+			public const int hello = 2130968576;
 			
 			static String()
 			{
